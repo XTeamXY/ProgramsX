@@ -13,3 +13,16 @@ Type 'contributors()' for more information and
 Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
+
+## S3 method for class 'data.frame'
+x[i, j, drop = ]
+## S3 replacement method for class 'data.frame'
+x[i, j] <- value
+## S3 method for class 'data.frame'
+x[[..., exact = TRUE]]
+## S3 replacement method for class 'data.frame'
+x[[i, j]] <- value
+## S3 method for class 'data.frame'
+x$name
+## S3 replacement method for class 'data.frame'
+x$name <- value
